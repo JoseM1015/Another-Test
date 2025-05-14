@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background: #0e0e10;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.center-orb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1e90ff;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: default;
+}
+
+.subtitle {
+  font-size: 0.7rem;
+  display: block;
+  line-height: 1;
+}
+
+.orb {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #3498db;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Example orb positions */
+.orb:nth-child(2) { top: 20%; left: 50%; transform: translateX(-50%); }
+.orb:nth-child(3) { top: 50%; left: 80%; transform: translateY(-50%); }
+.orb:nth-child(4) { top: 80%; left: 50%; transform: translateX(-50%); }
+
+.orb:hover {
+  transform: scale(1.1);
+}
