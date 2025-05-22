@@ -17,7 +17,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #1e90ff;
+  background: #345bdb;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -38,7 +38,7 @@ body {
   position: absolute;
   width: 100px;
   height: 100px;
-  background: #3498db;
+  background: #345bdb;
   border-radius: 50%;
   text-align: center;
   line-height: 100px;
@@ -46,10 +46,29 @@ body {
   transition: transform 0.3s ease;
 }
 
-/* Example orb positions */
+/*about me */
 .orb:nth-child(2) { top: 20%; left: 50%; transform: translateX(-50%); }
+
+/*education */
 .orb:nth-child(3) { top: 50%; left: 80%; transform: translateY(-50%); }
+
+/*experience */
 .orb:nth-child(4) { top: 80%; left: 50%; transform: translateX(-50%); }
+
+/*Projects */
+.orb:nth-child(5) { top: 50%; left: 20%; transform: translateX(-50%); }
+
+/*Socials */
+.orb:nth-child(6) { top: 70%; left: 30%; transform: translateX(-50%); }
+
+/*Contact */
+.orb:nth-child(7) { top: 70%; left: 70%; transform: translateX(-50%); }
+
+/*Placeholder */
+.orb:nth-child(8) { top: 30%; left: 30%; transform: translateX(-50%); }
+
+/*Placeholder-2 */
+.orb:nth-child(9) { top: 30%; left: 70%; transform: translateX(-50%); }
 
 .orb:hover {
   transform: scale(1.1);
